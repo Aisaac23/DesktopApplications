@@ -5,7 +5,7 @@ private void Take_Screenshot(int timeMS)
 	System.Threading.Thread.Sleep(timeMS);
 
 	Bitmap memoryImage;
-	long screenWidth = 0;
+	int screenWidth = 0;
 
 	/************These flags are to be set normally with checkboxes from the GUI*****************/
 	bool primary = true;
@@ -15,7 +15,7 @@ private void Take_Screenshot(int timeMS)
 	
 	if (primary) 
 		memoryImage = new Bitmap(Screen.PrimaryScreen.Bounds.Width, //if taskbar flag is set we include the taskbar in the screenshot
-	(taskbar ? Screen.PrimaryScreen.Bounds.Height : Screen.PrimaryScreen.WorkingArea.Height) );
+	(taskBar ? Screen.PrimaryScreen.Bounds.Height : Screen.PrimaryScreen.WorkingArea.Height) );
 	else
 	{	
 		//We take both screens instead just the primary one.
