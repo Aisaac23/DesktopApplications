@@ -7,7 +7,7 @@ private void Take_Screenshot(int timeMS)
 	Bitmap memoryImage;
 	int screenWidth = 0;
 
-	/************These flags are to be set normally with checkboxes from the GUI*****************/
+	/************These flags are to be usually set with checkboxes from the GUI*****************/
 	bool primary = true;
 	bool clipboard = true;
 	bool taskBar = false;
