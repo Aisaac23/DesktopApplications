@@ -1,3 +1,6 @@
+/*You can also find this snippet at https://www.dreamincode.net/forums/topic/416186-screenshot-tool-snippet/page__p__2398186__fromsearch__1&#entry2398186
+were it has been reviewed by the high-rank "modi123_1"*/
+
 private void Take_Screenshot(int timeMS)
 {
 	//Waits a specific time in miliseconds, depending on your implementation you could multiply 
